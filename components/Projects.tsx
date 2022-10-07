@@ -1,13 +1,10 @@
 import React from 'react';
 import {motion} from "framer-motion";
-import {Project} from "../typings";
-import {urlFor} from "../sanity";
+import projectConfig from "../config/projectConfig";
 
-type Props = {
-    projects: Project[];
-}
+type Props = {}
 
-function Projects({projects}: Props) {
+function Projects({}: Props) {
     return (
         <motion.div
             initial={{opacity: 0}}
@@ -27,8 +24,8 @@ function Projects({projects}: Props) {
 
             <div
                 className="relative w-full flex overflow-x-scroll overflow-y-hidden scrollbar scrollbar-track-gray-400 scrollbar-thumb-[#F7AB0A]/80 snap-x snap-mandatory z-20">
-                {projects?.map((project, index) => (
-                    <div key={project._id} className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center p-10
+                {projectConfig.map((project, index) => (
+                    <div key={project.id} className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center p-10
                     md:p-44">
                         <a href={project.linkToBuild} target="_blank" rel="noreferrer">
                             <motion.img
@@ -37,16 +34,16 @@ function Projects({projects}: Props) {
                                 whileInView={{y: 0, opacity: 1}}
                                 viewport={{once: true}}
                                 className="max-h-[375px]"
-                                src={urlFor(project?.image).url()}
+                                src={project.projectImage}
                                 alt=""/>
                         </a>
 
                         <div className="flex my-4 max-w-[310px] sm:max-w-[400px] flex-wrap gap-2">
-                            {project?.technologies.map(technology => (
+                            {project.projectTechnology.map(technology => (
                                 <img
-                                    key={technology._id}
+                                    key={technology.id}
                                     className="h-10 w-10 rounded-full mx-1 mt-1"
-                                    src={urlFor(technology.image).url()}
+                                    src={technology.image}
                                     alt=""/>
                             ))}
                         </div>
@@ -54,12 +51,12 @@ function Projects({projects}: Props) {
                         <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                             <h4 className="text-4xl font-semibold text-center">
                                 <span className="underline decoration-[#F7AB0A]/50">
-                                    Case Study {index + 1} of {projects.length}:
-                                </span> {project?.title}
+                                    Case Study {index + 1} of {projectConfig.length}:
+                                </span> {project.projectName}
                             </h4>
 
                             <p className="text-lg text-center md:text-left">
-                                {project?.summary}
+                                {project.projectDescription}
                             </p>
                         </div>
                     </div>

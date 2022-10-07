@@ -1,13 +1,11 @@
 import {motion} from 'framer-motion';
 import React from 'react';
 import Skill from "./Skill";
-import {Skill as SkillType} from "../typings";
+import skillConfig from "../config/skillConfig";
 
-type Props = {
-    skills: SkillType[];
-}
+type Props = {}
 
-function Skills({skills}: Props) {
+function Skills({}: Props) {
     return (
         <motion.div
             initial={{opacity: 0}}
@@ -23,12 +21,12 @@ function Skills({skills}: Props) {
 
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mb-48">
-                {skills?.slice(0, skills.length / 2).map(skill => (
-                    <Skill key={skill._id} skill={skill} directionLeft/>
+                {skillConfig?.slice(0, skillConfig.length / 2).map(skill => (
+                    <Skill key={skill.id} image={skill.image} progress={skill.progress} directionLeft/>
                 ))}
 
-                {skills?.slice(skills.length / 2, skills.length).map(skill => (
-                    <Skill key={skill._id} skill={skill}/>
+                {skillConfig?.slice(skillConfig.length / 2, skillConfig.length).map(skill => (
+                    <Skill key={skill.id} image={skill.image} progress={skill.progress}/>
                 ))}
 
             </div>

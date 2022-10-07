@@ -2,13 +2,11 @@ import React from 'react';
 import {SocialIcon} from "react-social-icons";
 import {motion} from "framer-motion";
 import Link from "next/link";
-import {Social} from "../typings";
+import socialConfig from "../config/socialConfig";
 
-type Props = {
-    socials: Social[]
-};
+type Props = {};
 
-export default function Header({socials}: Props) {
+export default function Header({}: Props) {
     return (
         <header className="sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center p-5">
             <motion.div initial={{x: -500, opacity: 0, scale: 0.5}}
@@ -16,8 +14,8 @@ export default function Header({socials}: Props) {
                         transition={{duration: 1.5}}
                         className="flex flex-row items-center">
 
-                {socials.map((social) => (
-                    <SocialIcon key={social._id}
+                {socialConfig.map((social) => (
+                    <SocialIcon key={social.id}
                                 url={social.url}
                                 fgColor="gray" bgColor="transparent"/>
                 ))}
