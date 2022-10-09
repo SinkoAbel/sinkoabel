@@ -15,7 +15,7 @@ const skillConfig: ISkill[] = [
     {
         id: 2,
         title: 'React',
-        progress: 60,
+        progress: 80,
         image: 'Images/SkillsIcons/reactIcon.png'
     },
     {

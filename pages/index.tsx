@@ -26,8 +26,8 @@ type Props = {
 const Home = ({pageInfo, experiences, skills, projects}: Props) => {
     return (
         <div
-            className="bg-[rgb(36,36,36)] text-white h-screen snap-y overflow-x-hidden overflow-y-scroll z-0
-            scroll-smooth scrollbar scrollbar-track-gray-400 scrollbar-thumb-[#F7AB0A]/80">
+            className="bg-[rgb(36,36,36)] text-white h-screen snap-y overflow-x-hidden sm:overflow-y-scroll z-0
+            scroll-smooth sm:scrollbar sm:scrollbar-track-gray-400 sm:scrollbar-thumb-[#F7AB0A]/80">
             <Head>
                 <title>Ábel Sinkó - Portfolio</title>
             </Head>

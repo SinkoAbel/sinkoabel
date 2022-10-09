@@ -13,8 +13,8 @@ function Projects({}: Props) {
             className="mt-32 pt-32 mx-auto items-center relative flex overflow-hidden flex-col max-w-full
             text-left justify-evenly z-0">
 
-            <h3 className="text-center top-24 uppercase tracking-[20px] mb-3 text-gray-500 text-2xl">
-                Projects
+            <h3 className="text-center top-24 uppercase tracking-[20px] mb-3 text-gray-500 text-xl sm:text-2xl">
+                Projects I<br/>Contributed
             </h3>
 
             <h3 className="text-center text-gray-500 uppercase tracking-[3px] text-sm">

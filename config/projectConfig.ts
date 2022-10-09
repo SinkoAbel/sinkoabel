@@ -34,7 +34,7 @@ const projectConfig: IProject[] = [
                 image: 'Images/SkillsIcons/sassIcon.png'
             }
         ],
-        projectDescription: "Kinect based frontend game. It was exciting to make a React game compatible with Microsoft's Kinect but in the end we managed to create the connection and Kinect Studio was a big help in it.",
+        projectDescription: "React based frontend game connected to Kinect. I've got the opportunity to create this project's scratch card game. Making this game compatible with Microsoft's Kinect was challenging but in the end we succeeded and Kinect Studio was a big help in it.",
         linkToBuild: "https://www.youtube.com/watch?v=uUJAUQ3be1w"
     },
     {
@@ -61,7 +61,7 @@ const projectConfig: IProject[] = [
                 image: 'Images/SkillsIcons/phpIcon.png'
             }
         ],
-        projectDescription: "My company's renewed homepage. It's a heavily customized WordPress site with Elementor and a lot of plugins.",
+        projectDescription: "I've taken part in Jacsomedia Digital Agency's homepage. This is a heavily customized WordPress site using Elementor and a lot of plugins.",
         linkToBuild: "https://jacsomedia.hu/en/"
     },
     {
@@ -106,7 +106,7 @@ const projectConfig: IProject[] = [
                 image: 'Images/SkillsIcons/tailwindIcon.png'
             }
         ],
-        projectDescription: "To see more project and case studies please see Jacsomedia's Dribble account. There are variety of projecets I contributed and used a tons of variety of modern web technogies.",
+        projectDescription: "To see more project and case studies please see Jacsomedia Digital Agency's Dribble account. There are variety of projects I contributed and used a dozens of modern web technologies.",
         linkToBuild: "https://dribbble.com/jacsomedia"
     },
     {
@@ -145,7 +145,7 @@ const projectConfig: IProject[] = [
                 image: 'Images/SkillsIcons/cPanelIcon.png'
             }
         ],
-        projectDescription: "Green King is a very clever site created for a gardening company. The development was happend in an MVC architectural pattern by Laravel.",
+        projectDescription: "Green King is a small but a very clever site created for a gardening company. The development happened in an MVC architectural pattern. For this case we use Laravel.",
         linkToBuild: "https://www.zoldkiraly.hu/"
     },
     {
@@ -172,7 +172,7 @@ const projectConfig: IProject[] = [
                 image: 'Images/SkillsIcons/tailwindIcon.png'
             }
         ],
-        projectDescription: "An interesting little forntend NFC game made with React. This is the ideal exhibition game.",
+        projectDescription: "An interesting little frontend NFC game made with React and powered by Arduino's NFC module. This is the ideal exhibition game. As for me I was responsible for quiz game part of this project.",
         linkToBuild: "https://www.youtube.com/watch?v=Kihi89aZTuM"
     },
     {
@@ -211,7 +211,7 @@ const projectConfig: IProject[] = [
                 image: 'Images/SkillsIcons/drupalIcon.png'
             }
         ],
-        projectDescription: "It was an interesting Drupal 8 project, where I had to dive deep into the templating language of Drupal. The site was made for a company specified for test chambers and measuring devices.",
+        projectDescription: "It was an interesting Drupal 8 project, where I had to dive deep into the templating language of Drupal. In addition I've got the opportunity to learn the basics of Google Tag Manager and Google Analytics. The site was made for a company specified for test chambers and measuring devices.",
         linkToBuild: "https://amtest.hu/"
     }
 ];
