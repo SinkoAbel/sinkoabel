@@ -29,7 +29,7 @@ const Home = ({pageInfo, experiences, skills, projects}: Props) => {
             className="bg-[rgb(36,36,36)] text-white h-screen snap-y overflow-x-hidden sm:overflow-y-scroll z-0
             scroll-smooth sm:scrollbar sm:scrollbar-track-gray-400 sm:scrollbar-thumb-[#F7AB0A]/80">
             <Head>
-                <link rel="shortcut icon" href={`/favicon.ico`}/>
+                <link rel="icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`}/>
                 <title>Ábel Sinkó - Portfolio</title>
             </Head>
 
