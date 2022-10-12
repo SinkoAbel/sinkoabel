@@ -4,6 +4,10 @@ const nextConfig = {
     swcMinify: true,
     basePath: "/sinkoabel",
     assetPrefix: "/sinkoabel",
+    images: {
+        loader: 'akamai',
+        path: '/sinkoabel',
+    }
 }
 
 module.exports = nextConfig
