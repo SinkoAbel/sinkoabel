@@ -125,7 +125,7 @@ const experienceConfig: IExperience[] = [
         points: [
             {
                 id: 1,
-                point: "Creating responsive websites, pages, portals and applicaons mostly for medical organizaons like Bayer AG, but also for naonal organizaons like Hungarian Naonal Opera or Semmelweis Medical Services."
+                point: "Creating responsive websites, pages, portals and applications mostly for medical organizations like Bayer AG, but also for national organizations like Hungarian National Opera or Semmelweis Medical Services."
             },
             {
                 id: 2,
@@ -145,7 +145,7 @@ const experienceConfig: IExperience[] = [
             },
             {
                 id: 6,
-                point: "Database management and opmizaon: MySQL, Oracle SQL, PL/SQL."
+                point: "Database management and optimization: MySQL, Oracle SQL, PL/SQL."
             },
             {
                 id: 7,

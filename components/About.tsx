@@ -1,6 +1,7 @@
 import React from 'react';
 import {motion} from "framer-motion";
 import aboutImage from "../public/Images/ProfileImages/AbelAboutImage.png"
+import Image from "next/image";
 
 type Props = {}
 
@@ -21,23 +22,15 @@ const About = (props: Props) => {
 
             <div className="md:grid md:grid-cols-2 md:gap-5 mt-14">
                 <div className="mx-auto pr-14 pl-14">
-                    <motion.img
-                        initial={{
-                            x: -200,
-                            opacity: 0
-                        }}
-                        transition={{
-                            duration: 1.5
-                        }}
-                        whileInView={{
-                            x: 0,
-                            opacity: 1
-                        }}
-                        whileHover={{y: -15, scale: 0.99}}
-                        viewport={{once: true}}
-                        src={aboutImage.src}
-                        className="rounded-full md:rounded-lg max-w-[250px] md:max-w-[350px] lg:max-w-[500px]
-                                   xl:max-w-[500px] 2xl:max-w-[600px] mx-auto object-contain"/>
+                    <motion.div initial={{
+                        x: -200,
+                        opacity: 0
+                    }} transition={{duration: 1}} whileInView={{x: 0, opacity: 1}} whileHover={{y: -15, scale: 0.99}}
+                                viewport={{once: true}}>
+                        <Image src={aboutImage}
+                               className="rounded-full md:rounded-lg max-w-[250px] md:max-w-[350px] lg:max-w-[500px]
+                               xl:max-w-[500px] 2xl:max-w-[600px] mx-auto object-contain"/>
+                    </motion.div>
                 </div>
                 <div className="mx-auto px-8 pt-14 md:pt-0">
                     <h4 className="text-4xl pb-5 font-semibold underline decoration-[#F7AB0A]/60">
@@ -54,7 +47,7 @@ const About = (props: Props) => {
                         <p className="text-lg xl:pr-14 pb-2">
                             At High School I learned Mechanical Engineering. I worked in the industry for 3 years. After
                             that I met with Computer Sciences and I found what my heart really desires. A year later I
-                            gaind
+                            gained
                             entrance to&nbsp;
                             <a href="https://uni-eszterhazy.hu/en"
                                className="font-semibold underline decoration-[#F7AB0A]/60" target="_blank"

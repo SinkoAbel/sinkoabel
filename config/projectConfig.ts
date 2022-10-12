@@ -145,7 +145,7 @@ const projectConfig: IProject[] = [
                 image: 'Images/SkillsIcons/cPanelIcon.png'
             }
         ],
-        projectDescription: "Green King is a small but a very clever site created for a gardening company. The development happened in an MVC architectural pattern. For this case we use Laravel.",
+        projectDescription: "Green King is a small but a very clever site created for a gardening company. The development happened in an MVC architectural pattern. For this case we used Laravel.",
         linkToBuild: "https://www.zoldkiraly.hu/"
     },
     {
