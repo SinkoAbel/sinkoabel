@@ -8,11 +8,6 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import {Experience, PageInfo, Project, Skill, Social} from "../typings";
-import {fetchPageInfo} from "../utils/fetchPageInfo";
-import {fetchExperiences} from "../utils/fetchExperiences";
-import {fetchSkills} from "../utils/fetchSkills";
-import {fetchProjects} from "../utils/fetchProjects";
-import {fetchSocials} from "../utils/fetchSocials";
 
 type Props = {
     pageInfo: PageInfo;
@@ -63,30 +58,3 @@ const Home = ({pageInfo, experiences, skills, projects}: Props) => {
 }
 
 export default Home
-
-// In case of Sanity backend:
-//
-// export const getStaticProps: GetStaticProps<Props> = async () => {
-//     const pageInfo: PageInfo = await fetchPageInfo();
-//     const experiences: Experience[] = await fetchExperiences();
-//     const skills: Skill[] = await fetchSkills();
-//     const projects: Project[] = await fetchProjects();
-//     const socials: Social[] = await fetchSocials();
-//
-//     return {
-//         props: {
-//             pageInfo,
-//             experiences,
-//             skills,
-//             projects,
-//             socials
-//         },
-//
-//         // Next.js will attempt to re-generate the page:
-//         // - When the request comes in
-//         // - At most once every 10 seconds
-//         revalidate: 10,
-//     }
-// }
-
-
