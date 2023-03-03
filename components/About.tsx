@@ -59,13 +59,13 @@ const About = (props: Props) => {
                         <p className="text-lg xl:pr-14 pb-2">
                             I&apos;m learning new things at the University daily which I can use
                             during my job. Currently I&apos;m working as a
-                            Full Stack developer at&nbsp;
+                            Front End developer at&nbsp;
                             <a href="https://jacsomedia.hu/en"
                                className="font-semibold underline decoration-[#F7AB0A]/60" target="_blank"
                                rel="noreferrer">
-                                Jacsomedia Digital Agency
+                                DXC Technology
                             </a>&nbsp;
-                            I&apos;m taking part in exciting projects and I&apos;m learning new technologies every day.
+                            I&apos;m taking part in exciting project and I&apos;m learning new technologies every day.
                         </p>
                         <p className="text-lg xl:pr-14 pb-2">
                             <span className="underline">As for other interests and soft skills:</span>&nbsp;<br/>
