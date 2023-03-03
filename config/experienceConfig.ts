@@ -19,6 +19,142 @@ interface IPoints {
 const experienceConfig: IExperience[] = [
     {
         id: 1,
+        jobTitle: 'Front End Developer',
+        companyImage: 'Images/WorkplaceImages/DXCIcon.png',
+        companyName: 'DXC Technology',
+        dateStarted: '2022-12-01',
+        dateEnded: '',
+        technologies: [
+            {
+                id: 1,
+                title: 'Laravel',
+                progress: 80,
+                image: 'Images/SkillsIcons/LaravelIcon.png'
+            },
+            {
+                id: 2,
+                title: 'PHP',
+                progress: 90,
+                image: 'Images/SkillsIcons/phpIcon.png'
+            },
+            {
+                id: 3,
+                title: 'Angular',
+                progress: 30,
+                image: 'Images/SkillsIcons/angularIcon.png'
+            },
+            {
+                id: 4,
+                title: 'React',
+                progress: 60,
+                image: 'Images/SkillsIcons/reactIcon.png'
+            },
+            {
+                id: 5,
+                title: 'JavaScript',
+                progress: 80,
+                image: 'Images/SkillsIcons/javascriptIcon.png'
+            },
+            {
+                id: 6,
+                title: 'TypeScript',
+                progress: 70,
+                image: 'Images/SkillsIcons/typescriptIcon.png'
+            },
+            {
+                id: 7,
+                title: 'HTML',
+                progress: 90,
+                image: 'Images/SkillsIcons/htmlIcon.png'
+            },
+            {
+                id: 8,
+                title: 'CSS',
+                progress: 90,
+                image: 'Images/SkillsIcons/cssIcon.png'
+            },
+            {
+                id: 9,
+                title: 'Jenkins',
+                progress: 40,
+                image: 'Images/SkillsIcons/jenkinsIcon.png'
+            },
+            {
+                id: 10,
+                title: 'GitLab',
+                progress: 80,
+                image: 'Images/SkillsIcons/gitlabIcon.png'
+            },
+            {
+                id: 11,
+                title: 'Robot Framework',
+                progress: 20,
+                image: 'Images/SkillsIcons/robotIcon.png'
+            },
+            {
+                id: 12,
+                title: 'JetBrains',
+                progress: 98,
+                image: 'Images/SkillsIcons/jetbrainsIcon.png'
+            },
+            {
+                id: 13,
+                title: 'Jira',
+                progress: 80,
+                image: 'Images/SkillsIcons/jiraIcon.png'
+            },
+            {
+                id: 14,
+                title: 'Confluence',
+                progress: 80,
+                image: 'Images/SkillsIcons/confluenceIcon.png'
+            }
+        ],
+        points: [
+            {
+                id: 1,
+                point: "Maintaining Vodafone Kabel Deutschland's website. My team and I are responsible for the basket's checkout page."
+            },
+            {
+                id: 2,
+                point: "Working in an multinational environment, using Jira and Confluence for issue tracking and documenting."
+            },
+            {
+                id: 3,
+                point: "Working with Json product config files."
+            },
+            {
+                id: 4,
+                point: "Using Jenkins to deploy our integration branches to various test environments."
+            },
+            {
+              id: 5,
+              point: "Creating automated tests with Robot Framework."
+            },
+            {
+                id: 6,
+                point: "Cooperating between scrum teams."
+            },
+            {
+                id: 7,
+                point: "Participating in daily meetings with the business side."
+            },
+            {
+                id: 8,
+                point: "Using React and Angular on the front end and Laravel on the backend."
+            },
+            {
+                id: 9,
+                point: "JavaScript (ES6) and TypeScript"
+            },
+            {
+                id: 10,
+                point: "Understanding and handling of REST API's on both end."
+            }
+        ]
+    },
+    {
+        id: 2,
         jobTitle: 'Full Stack Developer',
         companyImage: 'Images/WorkplaceImages/JacsomediaIcon.png',
         companyName: 'Jacsomedia Digital Agency',
@@ -194,7 +330,7 @@ const experienceConfig: IExperience[] = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         jobTitle: 'Production Planner',
         companyImage: 'Images/WorkplaceImages/NittoIcon.jpg',
         companyName: 'Nissho Hungary Ltd.',
@@ -234,7 +370,7 @@ const experienceConfig: IExperience[] = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         jobTitle: 'Project Engineer',
         companyImage: 'Images/WorkplaceImages/EnbiIcon.jpg',
         companyName: 'Hungary Enbi Ltd.',

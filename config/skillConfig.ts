@@ -162,6 +162,30 @@ const skillConfig: ISkill[] = [
         progress: 40,
         image: 'Images/SkillsIcons/NextJsIcon.png'
     },
+    {
+        id: 27,
+        title: 'Jenkins',
+        progress: 60,
+        image: 'Images/SkillsIcons/jenkinsIcon.png'
+    },
+    {
+        id: 28,
+        title: 'Robot Framework',
+        progress: 20,
+        image: 'Images/SkillsIcons/robotIcon.png'
+    },
+    {
+        id: 29,
+        title: 'Jira',
+        progress: 80,
+        image: 'Images/SkillsIcons/jiraIcon.png'
+    },
+    {
+        id: 30,
+        title: 'Confluence',
+        progress: 80,
+        image: 'Images/SkillsIcons/confluenceIcon.png'
+    }
 ]
 
 export default skillConfig;
