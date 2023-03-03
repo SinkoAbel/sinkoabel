@@ -12,6 +12,57 @@ interface IProject {
 const projectConfig: IProject[] = [
     {
         id: 1,
+        projectName: 'Vodafone Zuhauseplus',
+        projectImage: "Images/ProjectImages/ZuhauseplusStudy.png",
+        projectTechnology: [
+            {
+                id: 1,
+                title: 'React',
+                progress: 60,
+                image: 'Images/SkillsIcons/reactIcon.png'
+            },
+            {
+                id: 2,
+                title: 'Angular',
+                progress: 30,
+                image: 'Images/SkillsIcons/angularIcon.png'
+            },
+            {
+                id: 3,
+                title: 'JavaScript',
+                progress: 80,
+                image: 'Images/SkillsIcons/javascriptIcon.png'
+            },
+            {
+                id: 4,
+                title: 'TypeScript',
+                progress: 80,
+                image: 'Images/SkillsIcons/typescriptIcon.png'
+            },
+            {
+                id: 5,
+                title: 'Jenkins',
+                progress: 60,
+                image: 'Images/SkillsIcons/jenkinsIcon.png'
+            },
+            {
+                id: 6,
+                title: 'Laravel',
+                progress: 80,
+                image: 'Images/SkillsIcons/LaravelIcon.png'
+            },
+            {
+                id: 7,
+                title: 'Robot Framework',
+                progress: 20,
+                image: 'Images/SkillsIcons/robotIcon.png'
+            }
+],
+        projectDescription: "This is the page where my team and I are responsible for the basket's checkout functionality. Pretty complex site to manage but I enjoy the challenge and the depth of this project.",
+        linkToBuild: "https://zuhauseplus.vodafone.de/"
+    },
+    {
+        id: 2,
         projectName: 'Kinect Game',
         projectImage: "Images/ProjectImages/StandActivityGame.png",
         projectTechnology: [
@@ -38,7 +89,7 @@ const projectConfig: IProject[] = [
         linkToBuild: "https://www.youtube.com/watch?v=uUJAUQ3be1w"
     },
     {
-        id: 2,
+        id: 3,
         projectName: "Jacsomedia",
         projectImage: "Images/ProjectImages/jacsomedia.png",
         projectTechnology: [
@@ -65,7 +116,7 @@ const projectConfig: IProject[] = [
         linkToBuild: "https://jacsomedia.hu/en/"
     },
     {
-        id: 3,
+        id: 4,
         projectName: "More Projects",
         projectImage: "Images/ProjectImages/jacsoCaseStudies.png",
         projectTechnology: [
