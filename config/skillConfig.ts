@@ -26,162 +26,174 @@ const skillConfig: ISkill[] = [
     },
     {
         id: 4,
+        title: 'Node.js',
+        progress: 70,
+        image: 'Images/SkillsIcons/nodeIcon.png'
+    },
+    {
+        id: 5,
         title: 'Glovia G2',
         progress: 96,
         image: 'Images/SkillsIcons/gloviaIcon.png'
     },
     {
-        id: 5,
+        id: 6,
         title: 'SAP',
         progress: 76,
         image: 'Images/SkillsIcons/sapIcon.png'
     },
     {
-        id: 6,
+        id: 7,
         title: 'Bootstrap',
         progress: 90,
         image: 'Images/SkillsIcons/bootstrapIcon.png'
     },
     {
-        id: 7,
+        id: 8,
         title: 'Excel',
         progress: 98,
         image: 'Images/SkillsIcons/excelIcon.png'
     },
     {
-        id: 8,
+        id: 9,
         title: 'WordPress',
         progress: 50,
         image: 'Images/SkillsIcons/wordpressIcon.png'
     },
     {
-        id: 9,
+        id: 10,
         title: 'PL/SQL',
         progress: 70,
         image: 'Images/SkillsIcons/plsqlIcon.png'
     },
     {
-        id: 10,
+        id: 11,
         title: 'MySQL',
         progress: 90,
         image: 'Images/SkillsIcons/mysqlIcon.png'
     },
     {
-        id: 11,
+        id: 12,
         title: 'Linux',
         progress: 75,
         image: 'Images/SkillsIcons/linuxIcon.png'
     },
     {
-        id: 12,
+        id: 13,
         title: 'Laravel',
         progress: 80,
         image: 'Images/SkillsIcons/LaravelIcon.png'
     },
     {
-        id: 13,
+        id: 14,
         title: 'JetBrains',
         progress: 98,
         image: 'Images/SkillsIcons/jetbrainsIcon.png'
     },
     {
-        id: 14,
+        id: 15,
         title: 'Drupal',
-        progress: 80,
+        progress: 70,
         image: 'Images/SkillsIcons/drupalIcon.png'
     },
     {
-        id: 15,
+        id: 16,
         title: 'Tailwind CSS',
         progress: 85,
         image: 'Images/SkillsIcons/tailwindIcon.png'
     },
     {
-        id: 16,
+        id: 17,
         title: 'TypeScript',
         progress: 70,
         image: 'Images/SkillsIcons/typescriptIcon.png'
     },
     {
-        id: 17,
+        id: 18,
         title: 'C#',
         progress: 95,
         image: 'Images/SkillsIcons/csharpIcon.png'
     },
     {
-        id: 18,
+        id: 19,
         title: 'cPanel',
         progress: 75,
         image: 'Images/SkillsIcons/cPanelIcon.png'
     },
     {
-        id: 19,
+        id: 20,
+        title: 'Java',
+        progress: 80,
+        image: 'Images/SkillsIcons/javaIcon.png'
+    },
+    {
+        id: 21,
         title: 'Sass',
         progress: 80,
         image: 'Images/SkillsIcons/sassIcon.png'
     },
     {
-        id: 20,
+        id: 22,
         title: 'CSS',
         progress: 90,
         image: 'Images/SkillsIcons/cssIcon.png'
     },
     {
-        id: 21,
+        id: 23,
         title: 'HTML',
         progress: 90,
         image: 'Images/SkillsIcons/htmlIcon.png'
     },
     {
-        id: 22,
+        id: 24,
         title: 'JavaScript',
         progress: 80,
         image: 'Images/SkillsIcons/javascriptIcon.png'
     },
     {
-        id: 23,
+        id: 25,
         title: 'GitLab',
         progress: 80,
         image: 'Images/SkillsIcons/gitlabIcon.png'
     },
     {
-        id: 24,
+        id: 26,
         title: 'Firebase',
         progress: 30,
         image: 'Images/SkillsIcons/FirebaseIcon.png'
     },
     {
-        id: 25,
+        id: 27,
         title: 'Angular',
         progress: 30,
         image: 'Images/SkillsIcons/angularIcon.png'
     },
     {
-        id: 26,
+        id: 28,
         title: 'Next.Js',
         progress: 40,
         image: 'Images/SkillsIcons/NextJsIcon.png'
     },
     {
-        id: 27,
+        id: 29,
         title: 'Jenkins',
         progress: 60,
         image: 'Images/SkillsIcons/jenkinsIcon.png'
     },
     {
-        id: 28,
+        id: 30,
         title: 'Robot Framework',
         progress: 20,
         image: 'Images/SkillsIcons/robotIcon.png'
     },
     {
-        id: 29,
+        id: 31,
         title: 'Jira',
         progress: 80,
         image: 'Images/SkillsIcons/jiraIcon.png'
     },
     {
-        id: 30,
+        id: 32,
         title: 'Confluence',
         progress: 80,
         image: 'Images/SkillsIcons/confluenceIcon.png'
