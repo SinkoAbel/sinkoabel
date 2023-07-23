@@ -113,7 +113,7 @@ const experienceConfig: IExperience[] = [
         points: [
             {
                 id: 1,
-                point: "Maintaining Vodafone Kabel Deutschland's website. My team and I are responsible for the basket's checkout page."
+                point: "Creating new pages as well as maintaining existing ones for Vodafone Kabel Deutschland."
             },
             {
                 id: 2,
@@ -121,11 +121,11 @@ const experienceConfig: IExperience[] = [
             },
             {
                 id: 3,
-                point: "Working with Json product config files."
+                point: "Crating pages based on Figma and Adobe XD designs."
             },
             {
                 id: 4,
-                point: "Using Jenkins to deploy our integration branches to various test environments."
+                point: "Using Jenkins, GitHub Actions, GitLab to deploy our integration branches to various test environments and for version control."
             },
             {
               id: 5,
@@ -133,7 +133,7 @@ const experienceConfig: IExperience[] = [
             },
             {
                 id: 6,
-                point: "Cooperating between scrum teams."
+                point: "Cooperating between scrum teams and working according to SAFe methodology."
             },
             {
                 id: 7,
@@ -141,15 +141,15 @@ const experienceConfig: IExperience[] = [
             },
             {
                 id: 8,
-                point: "Using React and Angular on the front end and Laravel on the backend."
+                point: "Using React, Redux, Redux-Saga and Angular on the front end. For some validations we are using Zend/Laminas PHP framework."
             },
             {
                 id: 9,
-                point: "JavaScript (ES6) and TypeScript"
+                point: "TypeScript & JavaScript (ES6), Webpack, Sass, Ubuntu."
             },
             {
                 id: 10,
-                point: "Understanding and handling of REST API's on both end."
+                point: "Understanding and using REST API methods."
             }
         ]
     },
