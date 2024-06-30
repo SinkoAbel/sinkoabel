@@ -32,15 +32,15 @@ const skillConfig: ISkill[] = [
     },
     {
         id: 5,
-        title: 'Glovia G2',
+        title: 'VSCode',
         progress: 96,
-        image: 'Images/SkillsIcons/gloviaIcon.png'
+        image: 'Images/SkillsIcons/vsCodeIcon.png'
     },
     {
         id: 6,
-        title: 'SAP',
-        progress: 76,
-        image: 'Images/SkillsIcons/sapIcon.png'
+        title: 'Firebase',
+        progress: 30,
+        image: 'Images/SkillsIcons/FirebaseIcon.png'
     },
     {
         id: 7,
@@ -158,9 +158,9 @@ const skillConfig: ISkill[] = [
     },
     {
         id: 26,
-        title: 'Firebase',
-        progress: 30,
-        image: 'Images/SkillsIcons/FirebaseIcon.png'
+        title: 'GitHub',
+        progress: 76,
+        image: 'Images/SkillsIcons/GitHubIcon.png'
     },
     {
         id: 27,

@@ -19,11 +19,60 @@ interface IPoints {
 const experienceConfig: IExperience[] = [
     {
         id: 1,
-        jobTitle: 'Front End Developer',
+        jobTitle: 'Back-End Developer',
+        companyImage: 'Images/WorkplaceImages/AdaptiveMediaIcon.png',
+        companyName: 'Adaptive Media Sales House',
+        dateStarted: '2024-01-08',
+        dateEnded: '',
+        technologies: [
+            {
+                id: 1,
+                title: 'Laravel',
+                progress: 80,
+                image: 'Images/SkillsIcons/LaravelIcon.png'
+            },
+            {
+                id: 2,
+                title: 'PHP',
+                progress: 90,
+                image: 'Images/SkillsIcons/phpIcon.png'
+            },
+            {
+                id: 3,
+                title: 'Jira',
+                progress: 80,
+                image: 'Images/SkillsIcons/jiraIcon.png'
+            },
+            {
+                id: 4,
+                title: 'Confluence',
+                progress: 80,
+                image: 'Images/SkillsIcons/confluenceIcon.png'
+            },
+            {
+                id: 5,
+                title: 'GitHub',
+                progress: 80,
+                image: 'Images/SkillsIcons/gitHubIcon.png'
+            },
+            {
+                id: 6,
+                title: 'VSCode',
+                progress: 80,
+                image: 'Images/SkillsIcons/vsCodeIcon.png'
+            }
+        ],
+        points: [
+
+        ]
+    },
+    {
+        id: 2,
+        jobTitle: 'Front-End Developer',
         companyImage: 'Images/WorkplaceImages/DXCIcon.png',
         companyName: 'DXC Technology',
         dateStarted: '2022-12-01',
-        dateEnded: '',
+        dateEnded: '2024-01-05',
         technologies: [
             {
                 id: 1,
@@ -154,7 +203,7 @@ const experienceConfig: IExperience[] = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         jobTitle: 'Full Stack Developer',
         companyImage: 'Images/WorkplaceImages/JacsomediaIcon.png',
         companyName: 'Jacsomedia Digital Agency',
@@ -329,96 +378,6 @@ const experienceConfig: IExperience[] = [
             }
         ]
     },
-    {
-        id: 3,
-        jobTitle: 'Production Planner',
-        companyImage: 'Images/WorkplaceImages/NittoIcon.jpg',
-        companyName: 'Nissho Hungary Ltd.',
-        dateStarted: '2021-10-25',
-        dateEnded: '2021-12-05',
-        technologies: [
-            {
-                id: 1,
-                title: 'Excel',
-                progress: 98,
-                image: 'Images/SkillsIcons/excelIcon.png'
-            },
-            {
-                id: 2,
-                title: 'SAP',
-                progress: 76,
-                image: 'Images/SkillsIcons/sapIcon.png'
-            }
-        ],
-        points: [
-            {
-                id: 1,
-                point: "Creating long and short term production and capacity plans in order to make the company's production smooth and continuous."
-            },
-            {
-                id: 2,
-                point: "As an automotive company I have experience in technologies like Just-In-Time manufacturing, Lean."
-            },
-            {
-                id: 3,
-                point: "Active communication with production, procurement, sales and the CEO to be up to date with our production and needs."
-            },
-            {
-                id: 4,
-                point: "Active use of the ERP system to create ATP check, maintain production data. Also creating production orders."
-            }
-        ]
-    },
-    {
-        id: 4,
-        jobTitle: 'Project Engineer',
-        companyImage: 'Images/WorkplaceImages/EnbiIcon.jpg',
-        companyName: 'Hungary Enbi Ltd.',
-        dateStarted: '2018-11-05',
-        dateEnded: '2021-10-20',
-        technologies: [
-            {
-                id: 1,
-                title: 'Excel',
-                progress: 98,
-                image: 'Images/SkillsIcons/excelIcon.png'
-            },
-            {
-                id: 2,
-                title: 'SAP',
-                progress: 76,
-                image: 'Images/SkillsIcons/sapIcon.png'
-            },
-            {
-                id: 3,
-                title: 'Glovia G2',
-                progress: 96,
-                image: 'Images/SkillsIcons/gloviaIcon.png'
-            }
-        ],
-        points: [
-            {
-                id: 1,
-                point: "Programming CNC machines"
-            },
-            {
-                id: 2,
-                point: "Taking part in new product introduction (NPI) and coordinating the product's life from the workbench through production right until the customer."
-            },
-            {
-                id: 3,
-                point: "Taking part in international transfer project where the company's german partner provided us multiple machines and products"
-            },
-            {
-                id: 4,
-                point: "Maintaining product data in ERP system, such as BOM, Routing details or creating a new product."
-            },
-            {
-                id: 5,
-                point: "Creating cost calculations (RFQ) for new products or recalculating the older ones, closely co-operating with Key Account Managers sometimes with CEOs."
-            }
-        ]
-    }
 ]
 
 export default experienceConfig;

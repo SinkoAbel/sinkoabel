@@ -39,9 +39,9 @@ const About = (props: Props) => {
                     <div
                         className="sm:h-[270px] lg:h-[480px] 2xl:h-[550px] overflow-y-scroll scrollbar-thin scrollbar-track-gray-400 scrollbar-thumb-[#F7AB0A]/80">
                         <p className="text-lg xl:pr-14 pb-2">
-                            Hi, I&apos;m Ábel. Half a decade in the big, working life I have multiple experience. Under
+                            Hi, I&apos;m Ábel. More than half a decade in the working life I have gained multiple experiences. Under
                             this
-                            period of time I got the opportunity to work in multinational companies and teams.
+                            period of time I got the opportunity to work in multinational companies and smaller teams.
                         </p>
 
                         <p className="text-lg xl:pr-14 pb-2">
@@ -54,29 +54,23 @@ const About = (props: Props) => {
                                rel="noreferrer">
                                 Eszterházy Károly Catholic University
                             </a>&nbsp;
-                            to learn Software Engineering.
+                            to learn Software Engineering. Where I earned my degree in the summer of 2024.
                         </p>
                         <p className="text-lg xl:pr-14 pb-2">
                             I&apos;m learning new things at the University daily which I can use
                             during my job. Currently I&apos;m working as a
-                            Front End developer at&nbsp;
-                            <a href="https://jacsomedia.hu/en"
-                               className="font-semibold underline decoration-[#F7AB0A]/60" target="_blank"
-                               rel="noreferrer">
-                                DXC Technology
-                            </a>&nbsp;
-                            I&apos;m taking part in exciting project and I&apos;m learning new technologies every day.
+                            Backend developer at <b>Adaptive Media Sales House</b>.&nbsp;
+                            I&apos;m developing the company&apos;s internal system and I&apos;m about the company&apos;s work
+                            and it&apos;s tech every day something new.
                         </p>
                         <p className="text-lg xl:pr-14 pb-2">
                             <span className="underline">As for other interests and soft skills:</span>&nbsp;<br/>
-                            I really like creating video games so I&apos;m familiar with technologies like Unity 3D or
-                            Blender. I like to spend my free-time with travelling, watching football and ice hockey,
-                            spending time with my family and maintaining my car.<br/>
-                            Based on all of these you might get a picture how strongly motivated I am.
+                            I like to spend my free-time with travelling, watching football and ice hockey,
+                            taking time with my family and maintaining my car.<br/>
+                            I am strongly motivated and
                             I can learn just about any technology in a short period of time. I consider myself a team
                             player. I&apos;m cheerful and really like when I can make others happy and this attitude
-                            shows on
-                            my work.
+                            shows on my work.
                         </p>
                     </div>
                 </div>

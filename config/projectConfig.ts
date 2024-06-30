@@ -12,7 +12,7 @@ interface IProject {
 const projectConfig: IProject[] = [
     {
         id: 1,
-        projectName: 'Vodafone Zuhauseplus',
+        projectName: 'Vodafone Deutschland',
         projectImage: "Images/ProjectImages/ZuhauseplusStudy.png",
         projectTechnology: [
             {
@@ -58,8 +58,8 @@ const projectConfig: IProject[] = [
                 image: 'Images/SkillsIcons/robotIcon.png'
             }
 ],
-        projectDescription: "This is the page where my team and I are responsible for the basket's checkout functionality. Pretty complex site to manage but I enjoy the challenge and the depth of this project.",
-        linkToBuild: "https://zuhauseplus.vodafone.de/"
+        projectDescription: "Our team was responsible to create a new layout for the German Vodafone site. It was pretty complex but I enjoyed the challenge and the depth of this project.",
+        linkToBuild: "https://vodafone.de/"
     },
     {
         id: 2,
@@ -113,7 +113,7 @@ const projectConfig: IProject[] = [
             }
         ],
         projectDescription: "I've taken part in Jacsomedia Digital Agency's homepage. This is a heavily customized WordPress site using Elementor and a lot of plugins.",
-        linkToBuild: "https://jacsomedia.hu/en/"
+        linkToBuild: "https://www.jmdigital.ie/"
     },
     {
         id: 4,
