@@ -54,7 +54,7 @@ const About = (props: Props) => {
                                rel="noreferrer">
                                 Eszterházy Károly Catholic University
                             </a>&nbsp;
-                            to learn Software Engineering. Where I earned my degree in the summer of 2024.
+                            to learn Software Engineering. I earned my degree in the summer of 2024.
                         </p>
                         <p className="text-lg xl:pr-14 pb-2">
                             I&apos;m learning new things at the University daily which I can use
