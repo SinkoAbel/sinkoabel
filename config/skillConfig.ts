@@ -160,7 +160,7 @@ const skillConfig: ISkill[] = [
         id: 26,
         title: 'GitHub',
         progress: 76,
-        image: 'Images/SkillsIcons/GitHubIcon.png'
+        image: 'Images/SkillsIcons/gitHubIcon.png'
     },
     {
         id: 27,

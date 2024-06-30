@@ -63,7 +63,46 @@ const experienceConfig: IExperience[] = [
             }
         ],
         points: [
-
+            {
+                id: 1,
+                point: "Continuously providing new features to the company's own developed internal system."
+            },
+            {
+                id: 2,
+                point: "Maintaining and updating the existing services available in the system."
+            },
+            {
+                id: 3,
+                point: "Creating excel imports/exports and chart data."
+            },
+            {
+                id: 4,
+                point: "Creating complex SQL queries across multiple tables."
+            },
+            {
+                id: 5,
+                point: "Using and keeping the principles of agile methodology in a Scrum team."
+            },
+            {
+                id: 6,
+                point: "Using GitHub and AWS Console to deploy new features for our applications based in AWS Cloud."
+            },
+            {
+                id: 7,
+                point: "Monitoring and maintaining production DB and application in AWS."
+            },
+            {
+                id: 8,
+                point: "Strong familiarity with Jira and Confluence."
+            },
+            {
+                id: 9,
+                point: "Using Laravel for creating API endpoints and making the necessary data manipulations."
+            },
+            {
+                id: 10,
+                point: "Using Scribe to generate the API documentation."
+            }
         ]
     },
     {
@@ -322,7 +361,7 @@ const experienceConfig: IExperience[] = [
             },
             {
                 id: 4,
-                point: "Using web hosng control panels, like cPanel."
+                point: "Using web hosting control panels, like cPanel."
             },
             {
                 id: 5,
