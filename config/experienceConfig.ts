@@ -23,7 +23,7 @@ const experienceConfig: IExperience[] = [
         companyImage: 'Images/WorkplaceImages/AdaptiveMediaIcon.png',
         companyName: 'Adaptive Media Sales House',
         dateStarted: '2024-01-08',
-        dateEnded: '',
+        dateEnded: '2024-08-30',
         technologies: [
             {
                 id: 1,
@@ -60,6 +60,30 @@ const experienceConfig: IExperience[] = [
                 title: 'VSCode',
                 progress: 80,
                 image: 'Images/SkillsIcons/vsCodeIcon.png'
+            },
+            {
+                id: 7,
+                title: 'Docker',
+                progress: 80,
+                image: 'Images/SkillsIcons/dockerIcon.png'
+            },
+            {
+                id: 8,
+                title: 'Redis',
+                progress: 50,
+                image: 'Images/SkillsIcons/redisIcon.png'
+            },
+            {
+                id: 9,
+                title: 'Nginx',
+                progress: 45,
+                image: 'Images/SkillsIcons/nginxIcon.png'
+            },
+            {
+                id: 10,
+                title: 'AWS',
+                progress: 30,
+                image: 'Images/SkillsIcons/awsIcon.png'
             }
         ],
         points: [
@@ -73,7 +97,7 @@ const experienceConfig: IExperience[] = [
             },
             {
                 id: 3,
-                point: "Creating excel imports/exports and chart data."
+                point: "Creating Excel imports/exports and chart data."
             },
             {
                 id: 4,
@@ -102,6 +126,10 @@ const experienceConfig: IExperience[] = [
             {
                 id: 10,
                 point: "Using Scribe to generate the API documentation."
+            },
+            {
+                id: 11,
+                point: "Running the applications in a Dockerized environment with a Redis cache store and an Nginx server."
             }
         ]
     },

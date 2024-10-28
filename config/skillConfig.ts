@@ -75,7 +75,7 @@ const skillConfig: ISkill[] = [
     {
         id: 12,
         title: 'Linux',
-        progress: 75,
+        progress: 85,
         image: 'Images/SkillsIcons/linuxIcon.png'
     },
     {
@@ -197,7 +197,31 @@ const skillConfig: ISkill[] = [
         title: 'Confluence',
         progress: 80,
         image: 'Images/SkillsIcons/confluenceIcon.png'
-    }
+    },
+    {
+        id: 33,
+        title: 'AWS',
+        progress: 35,
+        image: 'Images/SkillsIcons/awsIcon.png'
+    },
+    {
+        id: 34,
+        title: 'Docker',
+        progress: 80,
+        image: 'Images/SkillsIcons/dockerIcon.png'
+    },
+    {
+        id: 35,
+        title: 'Nginx',
+        progress: 30,
+        image: 'Images/SkillsIcons/nginxIcon.png'
+    },
+    {
+        id: 36,
+        title: 'Redis',
+        progress: 55,
+        image: 'Images/SkillsIcons/redisIcon.png'
+    },
 ]
 
 export default skillConfig;
