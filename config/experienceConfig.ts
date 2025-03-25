@@ -19,6 +19,92 @@ interface IPoints {
 const experienceConfig: IExperience[] = [
     {
         id: 1,
+        jobTitle: 'Cybersecurity Engineer',
+        companyImage: 'Images/WorkplaceImages/MBHBankIcon.png',
+        companyName: 'MBH Bank Nyrt.',
+        dateStarted: '2025-01-06',
+        dateEnded: 'Present',
+        technologies: [
+            {
+                id: 1,
+                title: 'Qualys',
+                progress: 20,
+                image: 'Images/SkillsIcons/qualysIcon.png'
+            },
+            {
+                id: 2,
+                title: 'Defender',
+                progress: 30,
+                image: 'Images/SkillsIcons/defenderIcon.png'
+            },
+            {
+                id: 3,
+                title: 'Symantec',
+                progress: 20,
+                image: 'Images/SkillsIcons/symantecIcon.png'
+            },
+            {
+                id: 4,
+                title: 'Cisco',
+                progress: 15,
+                image: 'Images/SkillsIcons/ciscoIcon.png'
+            },
+            {
+                id: 5,
+                title: 'McAfee',
+                progress: 15,
+                image: 'Images/SkillsIcons/mcafeeIcon.png'
+            },
+            {
+                id: 6,
+                title: 'Trend Micro',
+                progress: 15,
+                image: 'Images/SkillsIcons/trendmicroIcon.png'
+            },
+            {
+                id: 7,
+                title: 'Excel',
+                progress: 80,
+                image: 'Images/SkillsIcons/excelIcon.png'
+            }
+        ],
+        points: [
+            {
+                id: 1,
+                point: "L2 Incident Responder in the SOC team, responsible for incident detection and response."
+            },
+            {
+                id: 2,
+                point: "Utilizing security tools such as Microsoft Defender XDR, Splunk, Trend Micro, Symantec, McAfee EPO, and Cisco Email Gateway."
+            },
+            {
+                id: 3,
+                point: "Supporting vulnerability management and system hardening using Qualys."
+            },
+            {
+                id: 4,
+                point: "Collaborating with operations teams on patch management."
+            },
+            {
+                id: 5,
+                point: "Creating and maintaining security documentation."
+            },
+            {
+                id: 6,
+                point: "Participating in daily security approval meetings."
+            },
+            {
+                id: 7,
+                point: "Using Excel for creating reports and data analysis."
+            },
+            {
+                id: 8,
+                point: "Engaged in the implementation of Cymulate through external training sessions."
+            }
+        ]
+    },
+    {
+        id: 2,
         jobTitle: 'Back-End Developer',
         companyImage: 'Images/WorkplaceImages/AdaptiveMediaIcon.png',
         companyName: 'Adaptive Media Sales House',
@@ -134,7 +220,7 @@ const experienceConfig: IExperience[] = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         jobTitle: 'Front-End Developer',
         companyImage: 'Images/WorkplaceImages/DXCIcon.png',
         companyName: 'DXC Technology',
@@ -270,7 +356,7 @@ const experienceConfig: IExperience[] = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         jobTitle: 'Full Stack Developer',
         companyImage: 'Images/WorkplaceImages/JacsomediaIcon.png',
         companyName: 'Jacsomedia Digital Agency',

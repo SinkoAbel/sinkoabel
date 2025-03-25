@@ -39,9 +39,9 @@ const About = (props: Props) => {
                     <div
                         className="sm:h-[270px] lg:h-[480px] 2xl:h-[550px] overflow-y-scroll scrollbar-thin scrollbar-track-gray-400 scrollbar-thumb-[#F7AB0A]/80">
                         <p className="text-lg xl:pr-14 pb-2">
-                            Hi, I&apos;m Ábel. More than half a decade in the working life I have gained multiple experiences. Under
+                            Hi, I&apos;m Ábel. 3+ year in IT industry I have gained multiple experiences. Under
                             this
-                            period of time I got the opportunity to work in multinational companies and smaller teams.
+                            period of time I got the opportunity to work in both multinational and smaller companies.
                         </p>
 
                         <p className="text-lg xl:pr-14 pb-2">
@@ -59,9 +59,9 @@ const About = (props: Props) => {
                         <p className="text-lg xl:pr-14 pb-2">
                             I&apos;m learning new things at the University daily which I can use
                             during my job. Currently I&apos;m working as a
-                            Backend developer at <b>Adaptive Media Sales House</b>.&nbsp;
-                            I&apos;m developing the company&apos;s internal system and I&apos;m about the company&apos;s work
-                            and it&apos;s tech every day something new.
+                            Cybersecurity Engineer at <b>MBH Bank Nyrt.</b>.&nbsp;
+                            I&apos;m responsible for the company&apos;s security and managing it's vulnerabilities.
+                            As I&apos;m quite new in security I found everything intersting thus I learn very fast.
                         </p>
                         <p className="text-lg xl:pr-14 pb-2">
                             <span className="underline">As for other interests and soft skills:</span>&nbsp;<br/>
