@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from "next/image";
 import {motion} from "framer-motion";
 import {ISkill} from "../config/skillConfig";
 
@@ -29,10 +28,10 @@ export default function ExperienceCard(props: any) {
                 <p className="font-bold text-2xl mt-1">{props.experience.companyName}</p>
                 <div className="flex my-4 max-w-[310px] sm:max-w-[400px] flex-wrap gap-2">
                     {props.experience.technologies.map((technology: ISkill) => (
-                        <Image
+                        <img
                             key={technology.id}
                             className="h-10 w-10 rounded-full mx-1 mt-1"
-                            src={technology.image} alt={`technology-${technology.id}`}/>
+                            src={technology.image} alt=""/>
                     ))}
                 </div>
                 <p className="uppercase py-5 text-gray-300">

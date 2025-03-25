@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from "next/image";
 import {motion} from "framer-motion";
 import projectConfig from "../config/projectConfig";
 
@@ -41,11 +40,11 @@ function Projects({}: Props) {
 
                         <div className="flex my-4 max-w-[310px] sm:max-w-[400px] flex-wrap gap-2">
                             {project.projectTechnology.map(technology => (
-                                <Image
+                                <img
                                     key={technology.id}
                                     className="h-10 w-10 rounded-full mx-1 mt-1"
                                     src={technology.image}
-                                    alt={`technology-${technology.id}`}/>
+                                    alt=""/>
                             ))}
                         </div>
 

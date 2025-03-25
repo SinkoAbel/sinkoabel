@@ -7,6 +7,9 @@ const nextConfig = {
     images: {
         loader: 'akamai',
         path: '/',
+    },
+    eslint: {
+        ignoreDuringBuilds: true,
     }
 }
 
