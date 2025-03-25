@@ -28,8 +28,9 @@ const About = (props: Props) => {
                     }} transition={{duration: 1}} whileInView={{x: 0, opacity: 1}} whileHover={{y: -15, scale: 0.99}}
                                 viewport={{once: true}}>
                         <Image src={aboutImage}
-                               className="rounded-full md:rounded-lg max-w-[250px] md:max-w-[350px] lg:max-w-[500px]
-                               xl:max-w-[500px] 2xl:max-w-[600px] mx-auto object-contain"/>
+                                alt="Ábel Sinkó"
+                                className="rounded-full md:rounded-lg max-w-[250px] md:max-w-[350px] lg:max-w-[500px]
+                                xl:max-w-[500px] 2xl:max-w-[600px] mx-auto object-contain"/>
                     </motion.div>
                 </div>
                 <div className="mx-auto px-8 pt-14 md:pt-0">
@@ -57,11 +58,11 @@ const About = (props: Props) => {
                             to learn Software Engineering. I earned my degree in the summer of 2024.
                         </p>
                         <p className="text-lg xl:pr-14 pb-2">
-                            I&apos;m learning new things at the University daily which I can use
-                            during my job. Currently I&apos;m working as a
+                            I'm learning new things at the University daily which I can use
+                            during my job. Currently I'm working as a
                             Cybersecurity Engineer at <b>MBH Bank Nyrt.</b>.&nbsp;
-                            I&apos;m responsible for the company&apos;s security and managing it's vulnerabilities.
-                            As I&apos;m quite new in security I found everything intersting thus I learn very fast.
+                            I'm responsible for the company's security and managing it's vulnerabilities.
+                            As I'm quite new in security I found everything intersting thus I learn very fast.
                         </p>
                         <p className="text-lg xl:pr-14 pb-2">
                             <span className="underline">As for other interests and soft skills:</span>&nbsp;<br/>
