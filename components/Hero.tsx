@@ -29,7 +29,7 @@ export default function Hero({}: Props) {
                 </motion.div>
             </div>
             <div className="z-20">
-                <h2 className="text-sm uppercase text-gray-500 pt-3 pb-3 tracking-[15px]">Software Engineer</h2>
+                <h2 className="text-sm uppercase text-gray-500 pt-3 pb-3 tracking-[15px]">Cybersecurity</h2>
                 <h1 className="text-4xl lg:text-6xl font-semibold px-10 h-20">
                     <span className="mr-3">{text}</span>
                     <Cursor cursorColor="#F7AB0A"/>

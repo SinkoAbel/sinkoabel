@@ -71,36 +71,36 @@ const experienceConfig: IExperience[] = [
         points: [
             {
                 id: 1,
-                point: "L2 Incident Responder in the SOC team, responsible for incident detection and response."
+                point: "Supported the cybersecurity integration during a three-bank merger, helping unify endpoint, SOC, and vulnerability management systems."
             },
             {
                 id: 2,
-                point: "Utilizing security tools such as Microsoft Defender XDR, Splunk, Trend Micro, Symantec, McAfee EPO, and Cisco Email Gateway."
+                point: "Participated in the migration from Microsoft Defender XDR to Trend Micro across client and server environments."
             },
             {
                 id: 3,
-                point: "Supporting vulnerability management and system hardening using Qualys."
+                point: "Performed hardening reviews and vulnerability assessments with Qualys to support MNB audits and internal compliance efforts."
             },
             {
                 id: 4,
-                point: "Collaborating with operations teams on patch management."
+                point: "Collaborated with operations to drive effective patch management and reduce vulnerability exposure."
             },
             {
                 id: 5,
-                point: "Creating and maintaining security documentation."
+                point: "Processed and refined Qualys vulnerability scan data in Excel to produce structured, prioritized reports aligned with internal remediation workflows."
             },
             {
                 id: 6,
-                point: "Participating in daily security approval meetings."
+                point: "Provided L2-level SOC support with responsibilities in threat hunting, malware analysis, and incident investigation."
             },
             {
                 id: 7,
-                point: "Using Excel for creating reports and data analysis."
+                point: "Utilized tools such as Microsoft Defender XDR, Trend Micro, Cymulate, Splunk, Symantec, McAfee EPO, and Cisco Email Gateway."
             },
             {
                 id: 8,
-                point: "Engaged in the implementation of Cymulate through external training sessions."
-            }
+                point: "Executed internal phishing campaigns and breach simulations to improve user awareness and test organizational defenses."
+            },
         ]
     },
     {
