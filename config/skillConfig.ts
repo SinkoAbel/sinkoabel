@@ -201,7 +201,7 @@ const skillConfig: ISkill[] = [
     {
         id: 33,
         title: 'AWS',
-        progress: 35,
+        progress: 60,
         image: 'Images/SkillsIcons/awsIcon.png'
     },
     {

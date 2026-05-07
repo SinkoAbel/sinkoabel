@@ -14,19 +14,18 @@ function Projects({}: Props) {
             text-left justify-evenly z-0">
 
             <h3 className="text-center top-24 uppercase tracking-[20px] mb-3 text-gray-500 text-xl sm:text-2xl">
-                My Developer<br/>Contributions
+                Security & Engineering<br/>Highlights
             </h3>
 
             <h3 className="text-center text-gray-500 uppercase tracking-[3px] text-sm">
-                Click/Tap on the project&apos;s image to see more information
+                Selected projects that show technical depth, ownership, and practical security thinking.
             </h3>
 
 
             <div
                 className="relative w-full flex overflow-x-scroll overflow-y-hidden scrollbar scrollbar-track-gray-400 scrollbar-thumb-[#F7AB0A]/80 snap-x snap-mandatory z-20">
                 {projectConfig.map((project, index) => (
-                    <div key={project.id} className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center p-10
-                    md:p-44">
+                    <div key={project.id} className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center p-5 md:p-20">
                         <a href={project.linkToBuild} target="_blank" rel="noreferrer">
                             <motion.img
                                 initial={{y: -150, opacity: 0}}
@@ -37,6 +36,12 @@ function Projects({}: Props) {
                                 src={project.projectImage}
                                 alt=""/>
                         </a>
+
+                        {!project.linkToBuild && (
+                            <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm text-gray-300">
+                                Private Lab
+                            </span>
+                        )}
 
                         <div className="flex my-4 max-w-[310px] sm:max-w-[400px] flex-wrap gap-2">
                             {project.projectTechnology.map(technology => (
@@ -51,7 +56,7 @@ function Projects({}: Props) {
                         <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                             <h4 className="text-4xl font-semibold text-center">
                                 <span className="underline decoration-[#F7AB0A]/50">
-                                    Case Study {index + 1} of {projectConfig.length}:
+                                    Selected Work 0{index + 1}:
                                 </span> {project.projectName}
                             </h4>
 

@@ -31,8 +31,9 @@ function ContactMe({}: Props) {
 
             <div className="flex flex-col space-y-10">
                 <h4 className="text-4xl font-semibold text-center py-16">
-                    I might be the right person for you.<br/>
-                    <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
+                    Open to new opportunities where security,<br/>
+                    ownership, and collaboration matter.<br/>
+                    <span className="decoration-[#F7AB0A]/50 underline">Let&apos;s Talk.</span>
                 </h4>
 
                 <div className="w-screen">

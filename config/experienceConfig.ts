@@ -17,13 +17,77 @@ interface IPoints {
 }
 
 const experienceConfig: IExperience[] = [
-    {
+        {
         id: 1,
+        jobTitle: 'Information Security Engineer II.',
+        companyImage: 'Images/WorkplaceImages/Mastercard.png',
+        companyName: 'Mastercard',
+        dateStarted: '2026-01-01',
+        dateEnded: 'Present',
+        technologies: [
+            {
+                id: 1,
+                title: 'AWS',
+                progress: 80,
+                image: 'Images/SkillsIcons/awsIcon.png'
+            },
+            {
+                id: 2,
+                title: 'Qualys',
+                progress: 20,
+                image: 'Images/SkillsIcons/qualysIcon.png'
+            },
+            {
+                id: 3,
+                title: 'Defender',
+                progress: 30,
+                image: 'Images/SkillsIcons/defenderIcon.png'
+            },
+            {
+                id: 4,
+                title: 'Jira',
+                progress: 80,
+                image: 'Images/SkillsIcons/jiraIcon.png'
+            },
+            {
+                id: 5,
+                title: 'Confluence',
+                progress: 80,
+                image: 'Images/SkillsIcons/confluenceIcon.png'
+            },
+            {
+                id: 6,
+                title: 'GitHub',
+                progress: 80,
+                image: 'Images/SkillsIcons/gitHubIcon.png'
+            }
+        ],
+        points: [
+            {
+                id: 1,
+                point: "Own and coordinate security-related workstreams in an AWS cloud environment, with a focus on vulnerability management and incident response."
+            },
+            {
+                id: 2,
+                point: "Support the integration of international teams, helping distribute tasks, clarify responsibilities, and keep delivery aligned."
+            },
+            {
+                id: 3,
+                point: "Collaborate closely with developers and stakeholders to drive remediation, secure delivery, and practical implementation of SAST/DAST findings."
+            },
+            {
+                id: 4,
+                point: "Take part in BAU-oriented security activities while building deeper AWS expertise and preparing for AWS Solutions Architect Associate and AWS Security Specialty certifications."
+            },        
+        ]
+    },
+    {
+        id: 2,
         jobTitle: 'Cybersecurity Engineer',
         companyImage: 'Images/WorkplaceImages/MBHBankIcon.png',
         companyName: 'MBH Bank Nyrt.',
         dateStarted: '2025-01-06',
-        dateEnded: 'Present',
+        dateEnded: '2025-12-31',
         technologies: [
             {
                 id: 1,
@@ -104,7 +168,7 @@ const experienceConfig: IExperience[] = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         jobTitle: 'Back-End Developer',
         companyImage: 'Images/WorkplaceImages/AdaptiveMediaIcon.png',
         companyName: 'Adaptive Media Sales House',
@@ -220,7 +284,7 @@ const experienceConfig: IExperience[] = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         jobTitle: 'Front-End Developer',
         companyImage: 'Images/WorkplaceImages/DXCIcon.png',
         companyName: 'DXC Technology',
@@ -356,7 +420,7 @@ const experienceConfig: IExperience[] = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         jobTitle: 'Full Stack Developer',
         companyImage: 'Images/WorkplaceImages/JacsomediaIcon.png',
         companyName: 'Jacsomedia Digital Agency',

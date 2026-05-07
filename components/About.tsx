@@ -39,40 +39,35 @@ const About = (props: Props) => {
                     </h4>
                     <div
                         className="sm:h-[270px] lg:h-[480px] 2xl:h-[550px] overflow-y-scroll scrollbar-thin scrollbar-track-gray-400 scrollbar-thumb-[#F7AB0A]/80">
-                        <p className="text-lg xl:pr-14 pb-2">
-                            Hi, I&apos;m Ábel. 3+ year in IT industry I have gained multiple experiences. Under
-                            this
-                            period of time I got the opportunity to work in both multinational and smaller companies.
+                        <p className="text-lg xl:pr-14 pb-4">
+                        Hi, I&apos;m Ábel, an <i><b>Information Security Engineer II at Mastercard</b></i> with a background in software development and cybersecurity.
+                        I work in an AWS cloud environment, focusing mainly on vulnerability management and SOC-related activities.
+                        </p>
+
+                        <p className="text-lg xl:pr-14 pb-4">
+                        Beyond the technical side, I also take ownership of selected efforts, coordinate work across international teams, and help drive projects forward in a structured way.
+                        My software development background gives me a strong technical foundation and helps me connect engineering, security, and business needs.
                         </p>
 
                         <p className="text-lg xl:pr-14 pb-2">
-                            At High School I learned Mechanical Engineering. I worked in the industry for 3 years. After
-                            that I met with Computer Sciences and I found what my heart really desires. A year later I
-                            gained
-                            entrance to&nbsp;
-                            <a href="https://uni-eszterhazy.hu/en"
-                               className="font-semibold underline decoration-[#F7AB0A]/60" target="_blank"
-                               rel="noreferrer">
-                                Eszterházy Károly Catholic University
-                            </a>&nbsp;
-                            to learn Software Engineering. I earned my degree in the summer of 2024.
+                        Over time, I have become especially interested in roles that combine technical depth with leadership, collaboration, and responsibility.
+                        I enjoy solving problems, working with different teams, and contributing to practical security improvements.
                         </p>
-                        <p className="text-lg xl:pr-14 pb-2">
-                            I&apos;m learning new things at the University daily which I can use
-                            during my job. Currently I&apos;m working as a
-                            Cybersecurity Engineer at <b>MBH Bank Nyrt.</b>.&nbsp;
-                            I&apos;m responsible for the company&apos;s security and managing it&apos;s vulnerabilities.
-                            As I&apos;m quite new in security I found everything intersting thus I learn very fast.
-                        </p>
-                        <p className="text-lg xl:pr-14 pb-2">
-                            <span className="underline">As for other interests and soft skills:</span>&nbsp;<br/>
-                            I like to spend my free-time with travelling, watching football and ice hockey,
-                            taking time with my family and maintaining my car.<br/>
-                            I am strongly motivated and
-                            I can learn just about any technology in a short period of time. I consider myself a team
-                            player. I&apos;m cheerful and really like when I can make others happy and this attitude
-                            shows on my work.
-                        </p>
+
+                        <div className="flex flex-wrap gap-3 pt-4 xl:pr-14">
+                            <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-200">
+                                AWS Cloud Security
+                            </span>
+                            <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-200">
+                                Vulnerability Management
+                            </span>
+                            <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-200">
+                                SOC Operations
+                            </span>
+                            <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-200">
+                                Ownership & Coordination
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
